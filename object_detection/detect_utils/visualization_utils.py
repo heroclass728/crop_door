@@ -21,10 +21,10 @@ The functions do not return a value, instead they modify the image itself.
 """
 import collections
 import numpy as np
-import Image as Image
-import ImageColor as ImageColor
-import ImageDraw as ImageDraw
-import ImageFont as ImageFont
+import PIL.Image as Image
+import PIL.ImageColor as ImageColor
+import PIL.ImageDraw as ImageDraw
+import PIL.ImageFont as ImageFont
 import six
 import tensorflow as tf
 

@@ -62,7 +62,7 @@ class ObjectDetector:
                                                  int(ymax * im_height)))
                         object_description.append(obj_class)
 
-        return object_coordinate
+        return object_coordinate, object_description
 
 
 def load_image_into_numpy_array(image):
